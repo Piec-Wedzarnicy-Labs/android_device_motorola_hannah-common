@@ -12,6 +12,9 @@ HANNAH_COMMON_PATH := device/motorola/hannah-common
 # Display
 TARGET_SCREEN_DENSITY := 320
 
+# Hacks
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(HANNAH_COMMON_PATH)/manifest.xml
 
